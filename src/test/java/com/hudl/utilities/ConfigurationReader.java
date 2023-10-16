@@ -1,7 +1,6 @@
 package com.hudl.utilities;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
@@ -9,7 +8,6 @@ public class ConfigurationReader {
     private static Properties properties;
 
     static {
-
         try {
             String path = "src/test/resources/configuration.properties";
             FileInputStream input = new FileInputStream(path);

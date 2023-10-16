@@ -1,6 +1,5 @@
 package com.hudl.utilities;
 
-import com.hudl.pages.CommonPageElements;
 import com.hudl.pages.PageInitializer;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
@@ -37,7 +36,7 @@ public class Driver {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-//        PageInitializer.initialize();
+        PageInitializer.initialize();
         actions = new Actions(driver);
         return driver;
     }

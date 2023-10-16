@@ -1,4 +1,4 @@
-package com.hudl.step_definitions;
+package com.hudl.stepDefinitions;
 
 import com.hudl.pages.PageInitializer;
 import com.hudl.utilities.ConfigurationReader;

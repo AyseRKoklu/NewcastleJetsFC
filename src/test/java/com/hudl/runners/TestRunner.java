@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"},
         features = "src/test/resources/features",
-        glue = "com/hudl/step_definitions",
+        glue = "com/hudl/stepDefinitions",
         dryRun = false,
-        tags = "@wip"
+        tags = ""
 )
 
 public class TestRunner {
