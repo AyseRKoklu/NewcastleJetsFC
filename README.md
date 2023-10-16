@@ -28,7 +28,8 @@ All the codes are stored in the **src** directory. Under src > test, I have **ja
 
 **utilities** package contains (i) **CommonSteps** that includes the reusable methods, (ii) **ConfigurationReader** to read the **configuration.properties**, (iii) **Driver** to implement Singleton Design Pattern.
 
-![](../Screenshot 2023-10-16 at 1.50.37 am.png)
+<img width="364" alt="Screenshot 2023-10-16 at 1 50 37 am" src="https://github.com/AyseRKoklu/NewcastleJetsFC/assets/99445830/22539be7-112d-4554-8908-0e0a740197a6">
+
 
 #### Naming Conventions
 I use **CamelCase** notation which is a naming convention in which a name is formed of multiple words that are joined together as a single word with the first letter of each of the multiple words capitalised so that each word that makes up the name can be easily read.
